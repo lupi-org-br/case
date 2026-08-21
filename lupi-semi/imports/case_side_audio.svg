@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="10.000002mm"
+   height="50mm"
+   viewBox="0 0 10.000002 50"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="case_side_audio.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="4"
+     inkscape:cx="-41"
+     inkscape:cy="87.124999"
+     inkscape:window-width="1920"
+     inkscape:window-height="1004"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="10.000002"
+       height="50"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="m 0,0 c 0.003226,15.764439 6.8826116,12.6154 7.0000895,20.590315 0.00832,0.565094 0.00832,8.254278 0,8.819374 C 6.8826115,37.3846 0.10445083,36.089142 0,50.000002 h 2.9998169 c 3.7178165,-8.758678 5.9819437,-13.260674 6.4450846,-22.646157 0.00857,-5e-6 0.025838,0 0.025838,0 0.012676,-1.74829 0.018956,-3.135296 0,-4.708549 -0.00857,-8e-6 -0.017264,5e-6 -0.025838,0 C 8.9817604,9.4895005 2.9473185,8.5602423 2.9998169,0 Z"
+       style="stroke-width:1;stroke-linecap:round;paint-order:stroke fill markers"
+       id="path2"
+       sodipodi:nodetypes="ccccccccccc" />
+  </g>
+</svg>

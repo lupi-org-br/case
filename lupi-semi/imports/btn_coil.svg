@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="35mm"
+   height="180mm"
+   viewBox="0 0 35 180"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="btn_coil.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0091449"
+     inkscape:cx="-187.28728"
+     inkscape:cy="358.22408"
+     inkscape:window-width="1920"
+     inkscape:window-height="1004"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#000080;stroke:none;stroke-width:0.199999;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 35,175.50294 V 146.22552 C 35.585045,112.05471 24.503579,107.54944 26.290298,88.009712 26.959699,80.689082 33.703398,74.805456 33.454997,67.15247 33.184921,58.831712 26.291996,55.482732 26.320566,47.152681 26.369239,32.962086 30.857029,39.845413 30,0 H 0 C 0.21467118,62.05534 7.9405413,39.154688 8.8386366,68.618195 7.1361309,80.601872 0.71715084,84.774625 0,102.9622 v 72.54074 z"
+       id="path3"
+       sodipodi:nodetypes="ccassccsccc" />
+  </g>
+</svg>
