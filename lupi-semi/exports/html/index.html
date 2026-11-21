@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LUPI — Visualização 3D</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.170.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.170.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <main class="viewer-stage" id="viewer-stage">
+    <canvas id="viewer-canvas" aria-label="Modelo 3D interativo do LUPI"></canvas>
+
+    <div class="model-switcher" role="group" aria-label="Alternar modelo 3D">
+      <button type="button" class="switch-btn is-active" data-model="case">
+        Case
+      </button>
+      <button type="button" class="switch-btn" data-model="pcb">
+        PCB
+      </button>
+    </div>
+
+    <div class="viewer-loader" id="viewer-loader" role="status">
+      <div class="spinner" aria-hidden="true"></div>
+      <span>Carregando modelo 3D…</span>
+    </div>
+
+    <div class="viewer-error" id="viewer-error" hidden>
+      <strong>Não foi possível carregar o modelo 3D.</strong>
+      <p>
+        Se você abriu o arquivo direto via <code>file://</code>, inicie um
+        servidor local na pasta <code>lupi-semi/exports</code>:
+      </p>
+      <pre>python3 -m http.server 8000</pre>
+    </div>
+  </main>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

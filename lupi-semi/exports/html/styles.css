@@ -1,0 +1,123 @@
+:root {
+  --hero-top: #747c85;
+  --hero-bottom: #8a929c;
+  --ink: #18181b;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: linear-gradient(180deg, var(--hero-top) 0%, var(--hero-bottom) 100%);
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.viewer-stage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#viewer-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: grab;
+}
+
+#viewer-canvas:active {
+  cursor: grabbing;
+}
+
+.model-switcher {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: inline-flex;
+  gap: 0.35rem;
+  padding: 0.35rem;
+  border-radius: 999px;
+  background: rgba(24, 24, 27, 0.24);
+  backdrop-filter: blur(8px);
+}
+
+.switch-btn {
+  padding: 0.45rem 1.25rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.switch-btn:hover {
+  color: #ffffff;
+}
+
+.switch-btn.is-active {
+  background: #ffffff;
+  color: var(--ink);
+}
+
+.viewer-loader,
+.viewer-error {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.92rem;
+  color: rgba(255, 255, 255, 0.92);
+  pointer-events: none;
+}
+
+.viewer-loader[hidden],
+.viewer-error[hidden] {
+  display: none;
+}
+
+.viewer-error pre {
+  margin: 0;
+  padding: 0.5rem 0.9rem;
+  border-radius: 10px;
+  background: rgba(24, 24, 27, 0.75);
+  color: #fff;
+  font-size: 0.85rem;
+}
+
+.spinner {
+  width: 28px;
+  height: 28px;
+  border: 3px solid rgba(255, 255, 255, 0.25);
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
